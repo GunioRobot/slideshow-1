@@ -1,0 +1,58 @@
+Tslideshow
+v7
+r1
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+c000000004CA318A20000000000004D1D
+t1285757090
+s19741
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/Info.plist
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/MainWindow.nib
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/PkgInfo
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/slideshowViewController.nib
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Release-iphoneos/slideshow.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+c000000004CA4A1B4000000000000580B
+t1285857716
+s22539
+
+Nslideshow-Info.plist
+c000000004CA318A200000000000004D6
+t1285757090
+s1238
+
+CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+r0
+
+CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/Info.plist slideshow-Info.plist
+r0
+
+CTouch /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app
+r0
+
+CValidate /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app
+r0
+

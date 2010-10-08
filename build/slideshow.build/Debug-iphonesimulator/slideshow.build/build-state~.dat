@@ -1,0 +1,256 @@
+Tslideshow
+v7
+r0
+t307538108.376565
+cCheck dependencies
+cProcessInfoPlistFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/Info.plist slideshow-Info.plist
+cCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+cCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+cProcessPCH /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch.gch slideshow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/main.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowAppDelegate.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowViewController.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow normal i386
+cGenerateDSYMFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app.dSYM /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow
+cTouch /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004CA31F120000000000000110
+t1285758738
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.h
+c000000004CA318A200000000000001F0
+t1285757090
+s496
+i<UIKit/UIKit.h>
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m
+c000000004CA318A200000000000007B9
+t1285757090
+s1977
+i"slideshowAppDelegate.h"
+i"slideshowViewController.h"
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.h
+c000000004CA318A200000000000000F9
+t1285757090
+s249
+i<UIKit/UIKit.h>
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m
+c000000004CA318A2000000000000055D
+t1285757090
+s1373
+i"slideshowViewController.h"
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+c000000004CA318A20000000000004D1D
+t1285757090
+s19741
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app
+t1285845308
+s238
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app.dSYM
+t1285845308
+s102
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/Info.plist
+t1285845306
+s806
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/MainWindow.nib
+t1285845306
+s1127
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/PkgInfo
+t1285845306
+s8
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow
+t1285845308
+s17276
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshowViewController.nib
+t1285845306
+s764
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/main.o
+t1285845307
+s6332
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshow.LinkFileList
+c000000004CA4713A00000000000001C7
+t1285845306
+s455
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowAppDelegate.o
+t1285845308
+s45168
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowViewController.o
+t1285845308
+s34376
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m
+c000000004CA318A20000000000000170
+t1285757090
+s368
+i<UIKit/UIKit.h>
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+c000000004CA318A20000000000003EE9
+t1285757090
+s16105
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshow_Prefix.pch
+c000000004CA318A200000000000000BB
+t1285757090
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch.gch
+t1285845307
+s13825936
+
+Nslideshow-Info.plist
+c000000004CA318A200000000000004D6
+t1285757090
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies307538106#307538106#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/main.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307538107.750150
+e307538107.964248
+r1
+xCompileC
+xbuild/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/main.o
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m307538107#307538107#0(0"0(0#0#59"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m8605818400#2211"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-generated-files.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-own-target-headers.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-all-target-headers.hmap -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-project-headers.hmap -F/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/include -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources/i386 -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources -include /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch -c /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/main.o0#
+
+CCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowAppDelegate.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307538107.794491
+e307538108.041311
+r1
+xCompileC
+xbuild/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowAppDelegate.o
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m307538107#307538108#0(0"0(0#0#83"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m8601109504#2251"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-generated-files.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-own-target-headers.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-all-target-headers.hmap -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-project-headers.hmap -F/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/include -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources/i386 -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources -include /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch -c /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowAppDelegate.o0#
+
+CCompileC build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowViewController.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s307538107.964335
+e307538108.059162
+r1
+xCompileC
+xbuild/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowViewController.o
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m307538107#307538108#0(0"0(0#0#86"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m8602612544#2257"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-generated-files.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-own-target-headers.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-all-target-headers.hmap -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-project-headers.hmap -F/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/include -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources/i386 -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources -include /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch -c /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshowViewController.o0#
+
+CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+s307538106.154777
+e307538106.657288
+r1
+xCompileXIB
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib307538106#307538106#0(0"0(0#0#67"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib8604271168#676"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/MainWindow.nib /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+s307538106.155593
+e307538106.648370
+r1
+xCompileXIB
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
+lSLF07#2@38"CompileXIB slideshowViewController.xib307538106#307538106#0(0"0(0#0#80"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib8604465504#702"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshowViewController.nib /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CGenerateDSYMFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app.dSYM /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow
+s307538108.298406
+e307538108.357547
+r1
+xGenerateDSYMFile
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app.dSYM
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/slideshow.app.dSYM build/Debug-iphonesimulator/slideshow.app/slideshow307538108#307538108#0(0"0(0#0#104"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow8606943008#493"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app.dSYM0#
+
+CLd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow normal i386
+s307538108.059241
+e307538108.298308
+r1
+xLd
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow
+xnormal
+xi386
+lSLF07#2@109"Link /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow307538108#307538108#0(0"0(0#0#0"8604076416#1042"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -F/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -filelist /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/Objects-normal/i386/slideshow.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/slideshow0#
+
+CProcessInfoPlistFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/Info.plist slideshow-Info.plist
+s307538106.124432
+e307538106.154679
+r1
+xProcessInfoPlistFile
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/Info.plist
+xslideshow-Info.plist
+lSLF07#2@28"Process slideshow-Info.plist307538106#307538106#0(0"0(0#0#73"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshow-Info.plist32370056119976040#589"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility slideshow-Info.plist -genpkginfo /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app/Info.plist0#
+
+CProcessPCH /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch.gch slideshow_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s307538106.657459
+e307538107.749921
+r1
+xProcessPCH
+x/var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch.gch
+xslideshow_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile slideshow_Prefix.pch307538106#307538107#0(0"0(0#0#73"/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshow_Prefix.pch8605825152#2087"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-generated-files.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-own-target-headers.hmap -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-all-target-headers.hmap -iquote /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/slideshow-project-headers.hmap -F/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/include -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources/i386 -I/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Debug-iphonesimulator/slideshow.build/DerivedSources -c /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshow_Prefix.pch -o /var/folders/3d/3ddW8MvfFG8MUcqzRW-8T++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-bjvumqfbskolngbobtvmfowtaslb/slideshow_Prefix.pch.gch0#
+
+CTouch /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app
+s307538108.357619
+e307538108.376512
+r1
+xTouch
+x/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app
+lSLF07#2@100"Touch /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app307538108#307538108#0(0"0(0#0#0"8606862432#370"    cd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Debug-iphonesimulator/slideshow.app0#
+
