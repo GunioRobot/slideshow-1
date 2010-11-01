@@ -23,6 +23,7 @@
 @property (nonatomic, retain) UILabel* labelBox;
 @property (nonatomic) Float32 pageWidth;
 @property (nonatomic) Float32 pageHeight;
+@property (nonatomic) Boolean imagesLoaded;
 
 /* for pageControl */
 - (IBAction)changePage:(id)sender;

@@ -14,6 +14,7 @@
 @synthesize labelBox;
 @synthesize pageWidth;
 @synthesize pageHeight;
+@synthesize imagesLoaded;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
@@ -21,13 +22,14 @@
 	labelBox.text = @"Image: 0";
 	self.pageWidth = scrollView.frame.size.width;
 	self.pageHeight = scrollView.frame.size.height;
-	[self setupPage];
+	self.imagesLoaded = false;
+//	[self setupPage];
     [super viewDidLoad];
 }
 
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	if (interfaceOrientation == UIInterfaceOrientationLandscapeRight || interfaceOrientation == UIInterfaceOrientationLandscapeLeft ) {
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+	NSLog(@"rotated");
+	if (self.interfaceOrientation == UIInterfaceOrientationLandscapeRight || self.interfaceOrientation == UIInterfaceOrientationLandscapeLeft ) {
 		self.pageWidth = 1024;
 		self.pageHeight = 704;
 		NSLog(@"Landscape: %fX%f", self.pageWidth, self.pageHeight);
@@ -39,6 +41,10 @@
 	}
 
 	[self setupPage];
+}
+
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
 }
 
@@ -87,6 +93,8 @@
 			break;
 		}
 		
+		NSLog(@"Loading image...");
+		
 		// create the image
 		UIImage *image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://media.nu.nl/m/m1fzob6al98j.jpg"]]];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
@@ -112,6 +120,7 @@
 	
 	// auto resizing of objects for rotating
 	scrollView.autoresizingMask = ( UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+	self.imagesLoaded = true;
 }
 
 #pragma mark -
