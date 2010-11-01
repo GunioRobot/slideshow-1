@@ -13,17 +13,17 @@
 {
 	IBOutlet UIScrollView* scrollView;
 	IBOutlet UIPageControl* pageControl;
-	IBOutlet UILabel* labelBox;
-	
+	IBOutlet UIActivityIndicatorView* loadingIndicator;
+	IBOutlet UIWebView* imageDescription;
 	BOOL pageControlIsChangingPage;
 }
 
 @property (nonatomic, retain) UIView *scrollView;
 @property (nonatomic, retain) UIPageControl* pageControl;
-@property (nonatomic, retain) UILabel* labelBox;
 @property (nonatomic) Float32 pageWidth;
 @property (nonatomic) Float32 pageHeight;
-@property (nonatomic) Boolean imagesLoaded;
+@property (nonatomic, retain) UIActivityIndicatorView* loadingIndicator;
+@property (nonatomic, retain) UIWebView* imageDescription;
 
 /* for pageControl */
 - (IBAction)changePage:(id)sender;

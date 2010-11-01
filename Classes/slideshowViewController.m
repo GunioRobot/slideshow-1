@@ -11,20 +11,20 @@
 @implementation slideshowViewController
 @synthesize scrollView;
 @synthesize pageControl;
-@synthesize labelBox;
 @synthesize pageWidth;
 @synthesize pageHeight;
-@synthesize imagesLoaded;
+@synthesize loadingIndicator;
+@synthesize imageDescription;
+//@synthesize images;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
 {
-	labelBox.text = @"Image: 0";
+//	imageDescription.text = @"Image: 0";
 	self.pageWidth = scrollView.frame.size.width;
 	self.pageHeight = scrollView.frame.size.height;
-	self.imagesLoaded = false;
-//	[self setupPage];
     [super viewDidLoad];
+//	[self setupPage];
 }
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
@@ -55,7 +55,8 @@
 - (void)viewDidUnload {
 	[scrollView release];
 	[pageControl release];
-	[labelBox release];
+	[imageDescription release];
+//	[labelBox release];
 }
 
 
@@ -89,7 +90,7 @@
 	NSUInteger nimages = 0;
 	
 	for (; ;nimages++) {
-		if (nimages == 10) {
+		if (nimages == 4) {
 			break;
 		}
 		
@@ -120,7 +121,9 @@
 	
 	// auto resizing of objects for rotating
 	scrollView.autoresizingMask = ( UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-	self.imagesLoaded = true;
+
+	NSLog(@"stop animating");
+	[loadingIndicator stopAnimating];
 }
 
 #pragma mark -
@@ -137,12 +140,15 @@
     CGFloat pageWidth = _scrollView.frame.size.width;
     int page = floor((_scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
     pageControl.currentPage = page;
-	labelBox.text = [NSString stringWithFormat: @"Image: %d", page];
-
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)_scrollView 
 {
+	NSLog(@"finished scrolling");
+	
+	NSString *html = @"<html><head><title>The Meaning of Life</title></head><body><p>...really is <b>42</b>!</p></body></html>";
+	[self.imageDescription loadHTMLString:html baseURL:nil];
+	
     pageControlIsChangingPage = NO;
 }
 
@@ -151,7 +157,6 @@
 - (IBAction)changePage:(id)sender 
 {
 	NSLog(@"pageChanged");
-	labelBox.text = @"foobar";
 
 	/*
 	 *	Change the scroll view
