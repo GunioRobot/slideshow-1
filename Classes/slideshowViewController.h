@@ -24,6 +24,7 @@
 @property (nonatomic) Float32 pageHeight;
 @property (nonatomic, retain) UIActivityIndicatorView* loadingIndicator;
 @property (nonatomic, retain) UIWebView* imageDescription;
+@property (nonatomic, retain) NSArray* images;
 
 /* for pageControl */
 - (IBAction)changePage:(id)sender;

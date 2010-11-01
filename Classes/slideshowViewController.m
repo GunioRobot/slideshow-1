@@ -15,7 +15,7 @@
 @synthesize pageHeight;
 @synthesize loadingIndicator;
 @synthesize imageDescription;
-//@synthesize images;
+@synthesize images;
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad 
@@ -23,7 +23,19 @@
 //	imageDescription.text = @"Image: 0";
 	self.pageWidth = scrollView.frame.size.width;
 	self.pageHeight = scrollView.frame.size.height;
+	self.images = [NSArray arrayWithObjects:@"http://media.nu.nl/m/m1fzob6al98j.jpg", @"http://media.nu.nl/m/m1fzqegaqfre_700.jpg", @"http://media.nu.nl/m/m1fzqf6adfr5_700.jpg", @"http://img148.imageshack.us/img148/9136/foobar6xn.jpg",nil];
+	
+	// set uiwebview transparent
+	UIColor * transparentBlack = [[UIColor alloc] initWithRed:0/0.
+														green:0/0.
+														 blue:0/0.
+														alpha:0.3
+								  ];
+	[self.imageDescription setBackgroundColor:transparentBlack];
+
+	
     [super viewDidLoad];
+	
 //	[self setupPage];
 }
 
@@ -99,7 +111,7 @@
 		NSLog(@"Loading image...");
 		
 		// create the image
-		UIImage *image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://media.nu.nl/m/m1fzob6al98j.jpg"]]];
+		UIImage *image = [[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[self.images objectAtIndex:nimages]]]];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		[imageView setBackgroundColor:[UIColor blackColor]];
 
@@ -107,13 +119,7 @@
 		imageView.contentMode = UIViewContentModeScaleAspectFit;
 		
 		// calculate whether the image should be centered (if image smaller than the available width)
-		float startY = 0;
-		if (image.size.height < self.pageHeight) {
-			startY = ((self.pageHeight - image.size.height) / 2);
-		}
-		
-		// create the frame in which the image should fit, depending on the orientation
-		imageView.frame = CGRectMake((self.pageWidth * nimages), startY, self.pageWidth,self.pageHeight);
+		imageView.frame = CGRectMake((self.pageWidth * nimages), 23, self.pageWidth,self.pageHeight);
 		
 		// add it to the view
 		[scrollView addSubview:imageView];
@@ -142,23 +148,17 @@
         return;
     }
 	
-	/*
-	 *	We switch page at 50% across
-	 */
-    CGFloat pageWidth = _scrollView.frame.size.width;
-    int page = floor((_scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+	// We switch page at 50% across
+    CGFloat windowWidth = _scrollView.frame.size.width;
+    int page = floor((_scrollView.contentOffset.x - windowWidth / 2) / windowWidth) + 1;
     pageControl.currentPage = page;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)_scrollView 
 {
 	NSLog(@"finished scrolling");
-	
-//	self.imageDescription.backgroundColor = [UIColor redColor]; 
-	NSString *html = @"<html><head><title>The Meaning of Life</title></head><body><p>...really is <b>42</b>!</p></body></html>";
-	[imageDescription loadHTMLString:html baseURL:nil];
-	
-	
+	NSString* foobar = @"<p style='color:white;'>foobar!</p>";
+	[self.imageDescription loadHTMLString:foobar baseURL:[NSURL URLWithString:@""]];
     pageControlIsChangingPage = NO;
 }
 
