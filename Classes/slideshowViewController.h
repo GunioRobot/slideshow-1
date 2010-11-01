@@ -7,18 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewSlideshow.h"
 
 @interface slideshowViewController : UIViewController
 <UIScrollViewDelegate>
 {
-	IBOutlet UIScrollView* scrollView;
+	IBOutlet UIViewSlideshow* scrollView;
 	IBOutlet UIPageControl* pageControl;
 	IBOutlet UIActivityIndicatorView* loadingIndicator;
 	IBOutlet UIWebView* imageDescription;
 	BOOL pageControlIsChangingPage;
 }
 
-@property (nonatomic, retain) UIView *scrollView;
+@property (nonatomic, retain) UIViewSlideshow *scrollView;
 @property (nonatomic, retain) UIPageControl* pageControl;
 @property (nonatomic) Float32 pageWidth;
 @property (nonatomic) Float32 pageHeight;

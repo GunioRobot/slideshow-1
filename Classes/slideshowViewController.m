@@ -7,6 +7,7 @@
 //
 
 #import "slideshowViewController.h"
+#import "UIViewSlideshow.h"
 
 @implementation slideshowViewController
 @synthesize scrollView;
@@ -160,6 +161,18 @@
 	NSString* foobar = @"<p style='color:white;'>foobar!</p>";
 	[self.imageDescription loadHTMLString:foobar baseURL:[NSURL URLWithString:@""]];
     pageControlIsChangingPage = NO;
+}
+
+- (void) touchesEnded: (NSSet *) touches withEvent: (UIEvent *) event 
+{	
+	if(imageDescription.hidden == YES)
+	{
+		imageDescription.hidden = NO;
+	}
+	else {
+		imageDescription.hidden = YES;
+	}
+
 }
 
 #pragma mark -
