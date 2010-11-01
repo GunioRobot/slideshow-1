@@ -85,6 +85,8 @@
 	scrollView.alwaysBounceHorizontal = YES;
 	scrollView.alwaysBounceVertical = NO;
 	scrollView.directionalLockEnabled = YES;
+	scrollView.showsHorizontalScrollIndicator = NO;
+	scrollView.showsVerticalScrollIndicator = NO;
 	
 	// create X amount of imageviews, and add them to the scrollview
 	NSUInteger nimages = 0;
@@ -104,8 +106,14 @@
 		// scale the image automatically within the frame
 		imageView.contentMode = UIViewContentModeScaleAspectFit;
 		
+		// calculate whether the image should be centered (if image smaller than the available width)
+		float startY = 0;
+		if (image.size.height < self.pageHeight) {
+			startY = ((self.pageHeight - image.size.height) / 2);
+		}
+		
 		// create the frame in which the image should fit, depending on the orientation
-		imageView.frame = CGRectMake((self.pageWidth * nimages), 0, self.pageWidth,self.pageHeight);
+		imageView.frame = CGRectMake((self.pageWidth * nimages), startY, self.pageWidth,self.pageHeight);
 		
 		// add it to the view
 		[scrollView addSubview:imageView];
@@ -116,7 +124,7 @@
 	self.pageControl.numberOfPages = nimages;
 	
 	// set the amount of scrollable content
-	[scrollView setContentSize:CGSizeMake(nimages * self.pageWidth, self.pageHeight - 200)];
+	[scrollView setContentSize:CGSizeMake(nimages * self.pageWidth, self.pageHeight)];
 	NSLog(@"Contentsize: %f", nimages*self.pageWidth);
 	
 	// auto resizing of objects for rotating
@@ -146,8 +154,10 @@
 {
 	NSLog(@"finished scrolling");
 	
+//	self.imageDescription.backgroundColor = [UIColor redColor]; 
 	NSString *html = @"<html><head><title>The Meaning of Life</title></head><body><p>...really is <b>42</b>!</p></body></html>";
-	[self.imageDescription loadHTMLString:html baseURL:nil];
+	[imageDescription loadHTMLString:html baseURL:nil];
+	
 	
     pageControlIsChangingPage = NO;
 }

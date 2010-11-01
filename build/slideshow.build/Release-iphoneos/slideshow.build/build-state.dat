@@ -1,6 +1,67 @@
 Tslideshow
 v7
 r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004C9D688D0000000000000110
+t1285384333
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004C997C6400000000000001E5
+t1285127268
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C999AC200000000003532C0
+t1285135042
+s3486400
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C999BC600000000003E1F20
+t1285135302
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C999BAA0000000000001466
+t1285135274
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C99AA0A0000000000000AA1
+t1285138954
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C99AA8F0000000000C675F0
+t1285139087
+s13006320
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.h
+c000000004CA318A200000000000001F0
+t1285757090
+s496
+i<UIKit/UIKit.h>
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m
+c000000004CA472E000000000000002E1
+t1285845728
+s737
+i"slideshowAppDelegate.h"
+i"slideshowViewController.h"
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.h
+c000000004CCF01030000000000000377
+t1288634627
+s887
+i<UIKit/UIKit.h>
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m
+c000000004CCF0C8F0000000000001326
+t1288637583
+s4902
+i"slideshowViewController.h"
 
 N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
 c000000004CA318A20000000000004D1D
@@ -8,6 +69,10 @@ t1285757090
 s19741
 
 N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app.dSYM
 t2
 s0
 
@@ -23,7 +88,32 @@ N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/sli
 t2
 s0
 
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/ResourceRules.plist
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/slideshow
+t2
+s0
+
 N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/slideshowViewController.nib
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/slideshow.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/slideshowAppDelegate.o
+t2
+s0
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/slideshowViewController.o
 t2
 s0
 
@@ -31,15 +121,45 @@ N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/slideshow.build/Rele
 t2
 s0
 
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m
+c000000004CA318A20000000000000170
+t1285757090
+s368
+i<UIKit/UIKit.h>
+
 N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
-c000000004CA4A1B4000000000000580B
-t1285857716
-s22539
+c000000004CCF0CD00000000000006B44
+t1288637648
+s27460
+
+N/Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshow_Prefix.pch
+c000000004CA318A200000000000000BB
+t1285757090
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/DQ/DQoSxV2IHcWnnX4fD938x++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-ecpjhammjnelsxcmdqqjddlclyxu/slideshow_Prefix.pch.gch
+t2
+s0
 
 Nslideshow-Info.plist
 c000000004CA318A200000000000004D6
 t1285757090
 s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310332065#310332065#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain310332065#18446744073709551615#0#0(1@0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/main.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/slideshowAppDelegate.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/slideshow.build/Release-iphoneos/slideshow.build/Objects-normal/armv7/slideshowViewController.o /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/Classes/slideshowViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/MainWindow.xib
 r0
@@ -47,7 +167,19 @@ r0
 CCompileXIB /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/slideshowViewController.xib
 r0
 
+CCpResource build/Release-iphoneos/slideshow.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CGenerateDSYMFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app.dSYM /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/slideshow
+r0
+
+CLd /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/slideshow normal armv7
+r0
+
 CProcessInfoPlistFile /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app/Info.plist slideshow-Info.plist
+r0
+
+CProcessPCH /var/folders/DQ/DQoSxV2IHcWnnX4fD938x++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/slideshow_Prefix-ecpjhammjnelsxcmdqqjddlclyxu/slideshow_Prefix.pch.gch slideshow_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CTouch /Users/svdgraaf/Dropbox/Projects/slideshow/slideshow/build/Release-iphoneos/slideshow.app
