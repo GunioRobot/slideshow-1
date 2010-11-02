@@ -168,11 +168,12 @@
 	if(imageDescription.hidden == YES)
 	{
 		imageDescription.hidden = NO;
+		[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
 	}
 	else {
 		imageDescription.hidden = YES;
+		[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
 	}
-
 }
 
 #pragma mark -
